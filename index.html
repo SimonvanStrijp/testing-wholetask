@@ -31,18 +31,29 @@
         </a>
     </nav>
 
-    <aside class="about-menu bg" id="menu">
-            <h2>About</h2>
-            <p>this is an about pannel, read it if you like.</p>
+    <aside class="about-menu" id="menu">
+        <h2 class="text-light">About</h2>
+        <div id="about-text" class="text-light">
+            <p class="spacing-alinea">Elke week zijn hier nieuwe artikelen te vinden over jouw favoriete table-top hobbies. 
+            </p>
+            <p>Volg ons op social media, om up-to-date te blijven met al onze artikelen!</p>
+        </div>
+        
     </aside>
 
 
     <header class="center spacing-bottom">
-        <figure class="img-main"></figure>
+        <figure class="relative" id="img-main">
+            <img src="img/Logo/logo_dice.svg" alt="Dice Dicers Logo" id="logo">
+        </figure>
         <section class="spacing-bottom">
-            <p class="float-left">bla bla bla</p>
+            <div class="float-left">
+                <p class="float-left spacing-alinea">Welkom bij Dice Dicers weekly!</p>
+                <p>Elke week zijn hier nieuwe artikelen te vinden over jouw favoriete table-top hobbies. Duik met ons de diepte in!</p>
+            </div>
+            
             <div class="float-right">
-                <h1>Dice Dicers weekly</h1>
+                <h1>Dice Dicers</h1>
                 <div class="divider-horizontal-thin center"></div>
             </div>
             <div class="clear"></div>
@@ -52,7 +63,6 @@
 
     <main>  
         <section class="homepage-list center" id="articles">
-            <section>
                 <div class="article-container float-left spacing-bottom">
                         <div class="article-01 img-card">
                             <a href="article-01.html">
@@ -60,112 +70,115 @@
                                     <div class="overlay"></div>
                                 </Figure>
                             </a>
-                            <div class="article-description img-source">
+                            <div class="article-description">
                                 <h3>Een consument of geconsumeerd? </h3>
                                 <div class="divider-horizontal-thin"></div>
-                                <ul>
-                                    <li class="float-left"><a href="">Community</a></li>
-                                    <li class="float-left"><a href="">Wargaming</a></li>
-                                    <li class="float-left"><a href="">Design</a></li>
+                                <ul class="spacing-alinea">
+                                    <li class="float-left"><a href="#articles">Community</a></li>
+                                    <li class="float-left"><a href="#articles">Wargaming</a></li>
+                                    <li class="float-left"><a href="#articles">Design</a></li>
                                 </ul> <div class="clear"></div>
                                 <p>Een community, de steunpilaar van elk spel. Maar hoe kijken bedrijven tegen hun consumenten aan. We spreken Arjan, van Code orange games om tot de bodem te komen! </p>
                             </div>            
                         </div>
                     </div>          
 
-                <div class="article-container float-right spacing-bottom">
-                    <div class="article-02 img-card">
+                <div class="article-container float-left spacing-bottom">
+                    <div class="article-02 img-card thumb-04">
                         <Figure class="article-img-02">
-                        <div class="overlay"></div>
                         </Figure>
-                            <div class="article-description img-source">
+                            <div class="article-description">
                                 <h3>Van lood tot UV</h3>
                                 <div class="divider-horizontal-thin"></div>
-                                <ul>
+                                <ul class="spacing-alinea">
                                     <li class="float-left"><a href="">Miniatures</a></li>
                                     <li class="float-left"><a href="">Production</a></li>
                                     <li class="float-left"><a href="">Design</a></li>
                                 </ul> <div class="clear"></div>
-                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                    magna aliqua. </p>
+                                <p> Het produceren van miniaturen gaat niet vanzelf. Volg ons op een reis door de tijd. </p>
                             </div>             
                         </div>
                 </div>
                 <div class="clear"></div> 
-            </section>
         </section>
         
         <div class="divider-horizontal spacing-bottom"></div>
 
         <section class="center thumb-list spacing-bottom">
             <div class="float-left">
-                <div class="thumb">
-                    <img src="img/IMG_0044.JPG" alt="" class="thumb-img">
+                <div class="thumb thumb-02">
+                    <img src="img/img_mini_01.JPG" alt="Slaughter Priest of Khorne" class="thumb-img">
                     <h3>Beste miniaturen van 2021</h3>
-                    <p>tag, tag, tag</p>
-                    <p> short description</p>
+                    <p class="fake-link">Miniatures, Top-list, Design</p>
+                    <p>Jullie hebben gestemd! Bekijk nu de beste 10 miniaturen volgens onze lezers.</p>
                 </div>
 
                 <div class="thumb">
-                    <img src="img/IMG_0039.JPG" alt="" class="thumb-img">
+                    <img src="img/img_windroos_01.jpg" alt="boekenplanken" class="thumb-img">
                     <h3>Rule design 101</h3>
-                    <p>tag, tag, tag</p>
-                    <p> short description</p>
+                    <p class="fake-link">Desgin, Gameplay, Wargaming</p>
+                    <p>Hoevaak rol je een dobbelsteen voor een actie? Hoe win je het spel? </p>
+                </div>
+
+                <div class="thumb thumb-03">
+                    <img src="img/img_05_well.jpg" alt="De put van een klein dorpje" class="thumb-img">
+                    <h3>Tabletop Scenery.</h3>
+                    <p class="fake-link">Hobby, Wargaming, D&D</p>
+                    <p> Hoe maak je het? hoe verkoop je het?</p>
                 </div>
 
                 <div class="thumb">
-                    <img src="img/IMG_0014.JPG" alt="" class="thumb-img">
-                    <h3>Artile title</h3>
-                    <p>tag, tag, tag</p>
-                    <p> short description</p>
+                    <img src="img/img_04_cultists.jpg" alt="Chaos cultists"  class="thumb-img">
+                    <h3>Hoe balanseer je horde armies?</h3>
+                    <p class="fake-link">Design, Gameplay, Wargaming</p>
+                    <p> Horde armies worden snel te zwak of te sterk. vandaag gaan wij opzoek naar de sweet-spot!</p>
                 </div>
+                
             </div>
 
             <div class="float-left spacing-mid">
                 <div class="thumb">
-                    <img src="img/IMG_0040.JPG" alt=""  class="thumb-img">
+                    <img src="img/img_05_dice.jpg" alt="dobbelstenen in een bak."  class="thumb-img">
                     <h3>de drie beste skirmish games</h3>
-                    <p>tag, tag, tag</p>
-                    <p> short description</p>
+                    <p class="fake-link">tag, Top-list, tag</p>
+                    <p>We spreken de designers van die drie beste skirmishgames van het moment!</p>
                 </div>
 
                 <div class="thumb">
-                    <img src="img/IMG_0010.JPG" alt="" class="thumb-img">
-                    <h3>Artile title</h3>
-                    <p>tag, tag, tag</p>
-                    <p> short description</p>
+                    <img src="img/img_03_keuzes.jpg" alt="Contemplatie" class="thumb-img">
+                    <h3>When to act. Wargaming tactics.</h3>
+                    <p class="fake-link">Wargaming, Strategy, Playing</p>
+                    <p>Vandaag spreken wij top tournament spelers en brengen hun beste tips naar jou!</p>
                 </div>
 
-                <div class="thumb">
-                    <img src="img/store-overview.JPG" alt="" class="thumb-img">
-                    <h3>Artile title</h3>
-                    <p>tag, tag, tag</p>
-                    <p> short description</p>
+                <div class="thumb thumb-04">
+                    <img src="img/img_06_black-legion.jpeg" alt="Black Legion Greater Posessed" class="thumb-img">
+                    <h3>Army painting</h3>
+                    <p class="fake-link">Wargaming, Hobby, Playing</p>
+                    <p>Het verven van een leger kan maanden duren. Leer nu hoe het sneller kan.</p>
                 </div>
             </div>
 
             <div class="float-left">
-                <div class="thumb">
-                    <img src="img/vertical-shelves.JPG" alt="" class="thumb-img">
-                    <h3>Artile title</h3>
-                    <p>tag, tag, tag</p>
-                    <p> short description</p>
+                <div class="thumb thumb-04">
+                    <img src="img/img_strijd_01.jpg" alt="Barbarian" class="thumb-img">
+                    <h3>Table-tips&Tops</h3>
+                    <p class="fake-link">Strategy, Gameplay, Tournaments</p>
+                    <p>Hoe maak jij het spel leuker voor jou en je tegenstander?</p>
                 </div>
 
                 <div class="thumb">
-                    <img src="img/wargaming-table.JPG" alt="" class="thumb-img">
-                    <h3>Artile title</h3>
-                    <p>tag, tag, tag</p>
-                    <p> short description</p>
+                    <img src="img/img_windroos_01OLD.jpg" alt="Full Shelves" class="thumb-img">
+                    <h3>Overstocking?!</h3>
+                    <p class="fake-link">Stores, Marketing, Wargaming</p>
+                    <p>Worden winkels bedolven onder teveel opties?</p>
                 </div>
 
-                <div class="thumb">
-                    <img src="img/used-minis.JPG" alt="" class="thumb-img">
-                    <h3>Artile title</h3>
-                    <p>tag, tag, tag</p>
-                    <p> short description</p>
+                <div class="thumb thumb-03">
+                    <img src="img/img_subcultures_drawers.jpg" alt="Subcultures sculpture" class="thumb-img">
+                    <h3>Local Game Stores</h3>
+                    <p class="fake-link">Stores, Tournaments, Retail</p>
+                    <p>Een bezoek aan het hart van onze community</p>
                 </div>
             </div>
             <div class="clear"></div>
@@ -177,19 +190,14 @@
             <div class="article-container float-left spacing-bottom">
                 <div class="article-03 img-card">
                     <div class="article-description img-source">
-                        <h3>ahaaha </h3>
+                        <h3>Painting your scenery </h3>
                         <div class="divider-horizontal-thin"></div>
-                        <p>tag tag tag</p>
+                        <p class="fake-link">Hobby, D&D, Wargaming</p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor
-                            incididunt ut labore et dolore magna aliqua.
-                            magna aliqua. 
+                            Leer jouw terein snel en gemakkelijk te verven!
                         </p>
                     </div>   
-                    <Figure class="article-img-03">
-                            <div class="overlay"></div>
-                    </Figure>
+                    <Figure class="article-img-03"></Figure>
                              
                 </div>
             </div>
@@ -198,7 +206,9 @@
             
     </main>
 
-<Footer id="footer"></Footer>
+<Footer id="footer">
+
+</Footer>
 <script src="js/script.js"></script>
 </body>
 </html>

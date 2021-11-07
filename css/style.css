@@ -9,94 +9,6 @@ body {
     color: black;
 }
 
-/* tekst types */
-
-h1 {
-    font-family: Fatface;
-    font-size: 7em;
-    color: var(--color-detail);
-    width: 600px;
-}
-
-.article-title{
-    width: 900px;
-}
-
-h2 {
-    width: 900px;
-    margin: 0 auto;
-    font-family: Fatface;
-    font-size: 3em;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: var(--color-detail);
-}
-
-h3 {
-    font-family: Fatface;
-    font-size: 3em;
-    margin: 10px 0;
-}
-
-.text-light{
-    color: var(--color-light);
-}
-
-p{
-    max-width: 900px;
-    font-size: 1.5em;
-    line-height: 140%;
-    margin: 0 auto;
-}
-
-.p-collum {
-    width: 314px;
-    padding-left: 35px;
-    padding-right: 35px;
-}
-
-.border-left{
-border-left: solid 2px black;
-}
-
-p a {
-    font-size: 1.25em;
-    color: var(--color-detail);
-    transition: 150ms ease-in;
-}
-
-li {
-    list-style: none;
-}
-
-li a{
-    color: var(--color-detail);
-    margin-right: 20px;
-    text-decoration: none;
-    font-size: 2em;
-    }
-
-.source-link:hover {
-    font-size: 110%;
-}
-
-header p {
-    width: 500px;
-    margin-left: 50px;
-}
-
-
-.img-source {
-    text-align: left;
-    font-size: 1em;
-}
-
-.img-source a {
-    font-size: 1em;
-}
-
-
-
 /*coloring*/
 
 :root {
@@ -118,6 +30,134 @@ header p {
 :root {
     --color-bg: #ffffff;
 }
+
+:root {
+    --color-light-02: #E9D3D3;
+}
+
+:root {
+    --color-light-03: #BCA29B;
+}
+
+:root{
+    --color-light-04: #9BA5BC;
+}
+
+/* tekst types */
+
+h1 {
+    font-family: Fatface;
+    font-size: 7em;
+    color: var(--color-detail);
+}
+
+
+h2 {
+    margin: 0 auto;
+    font-family: Fatface;
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--color-detail);
+}
+
+h3 {
+ 
+    font-family: Fatface;
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+p{
+    font-size: 1.5em;
+    line-height: 140%;
+    margin: 0 auto;
+}
+
+.p-collum {
+    width: 314px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.text-light{
+    color: var(--color-light);
+}
+
+mark {
+    background: none;
+    font-family: Fatface;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.link {
+    font-size: 1.5rem;
+    color: var(--color-detail);
+    transition: 250ms;
+}
+
+.link-light {
+    font-size: 1.5rem;
+    color: var(--color-light);
+    transition: 250ms;
+}
+
+.link:hover {
+    font-size: 110%;
+}
+
+.link-light:hover {
+    font-size: 110%;
+}
+
+#about-text {
+    width: 400px;
+}
+
+.p-sidebar {
+    width: 410px;
+}
+
+
+
+.border-left /* fot text*/{
+border-left: solid 2px black;
+}
+
+li {
+    list-style: none;
+}
+
+li a{
+    color: var(--color-detail);
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.fake-link {
+    color: var(--color-dark);
+    font-size: 1em;
+}
+
+header p {
+    width: 500px;
+    margin-left: 50px;
+}
+
+.img-source {
+    margin-left: 100px;
+    text-align: left;
+    font-size: 1em;
+}
+
+.img-source a {
+    font-size: 1em;
+}
+
+
 
 
 /* spacing */
@@ -208,26 +248,31 @@ header img{
 }
 
 
-.img-main {
+#img-main {
     width: 100%;
     height: 600px;
-    background-image: url(../img/wargaming-table.JPG);
+    background-image: url(../img/img_divider_02.jpg);
     background-size: 100%;
-    background-position: center;
+    background-position: top center;
     margin-bottom: 50px;
+}
+
+.img-sidebar {
+    width: 410px;
+    height: auto;
+    margin-left: 80px;
 }
 
 article {
     position: relative;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 900px;
     z-index: 1;
 }
 
-section {
-    width: fit-content;
+.wide {
+    max-width: 1200px;
 }
-
 
 
 footer {
@@ -267,8 +312,19 @@ footer {
     border-radius: 30px;
 }
 
-.img-fig {
-    width: 1000px;
+#img-fig {
+    width: 900px;
+}
+
+
+
+#figure-01 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    mix-blend-mode: multiply;
+    width: 700px;
 }
 
 
@@ -281,7 +337,6 @@ footer {
 }
 
 .article-container{
-    height: fit-content;
     width: fit-content;
 }
 
@@ -291,6 +346,7 @@ footer {
 }
 
 .article-02 {
+    margin-left: 150px;
     width: 1300px;
     padding: 20px 0 35px 35px; 
 }
@@ -300,10 +356,11 @@ footer {
     padding: 430px 0 35px 35px; 
 }
 
-.img-header {
-    margin-top: 35px;
-    height: 500px;
-    width: auto;
+#img-header {
+    margin: 50px 50px 50px 150px;
+    width: 450px;
+    height: auto;
+    border-radius: 30px;
 }
 
 .article-img-01{
@@ -312,7 +369,7 @@ footer {
     left: 64px;
     height: 500px;
     width: 796px;
-    background: url(../img/store-overview.JPG);
+    background: url(../img/img_windroos_02.jpg);
     background-size: contain;
     transition: ease-in 200ms;  
     border-radius: 30px; 
@@ -324,8 +381,9 @@ footer {
     right: 64px;
     height: 600px;
     width: 600px;
-    background: url(../img/IMG_0019.JPG);
+    background: url(../img/img_end_01.jpg);
     background-size: auto 100%;
+    background-position: center;
     transition: ease-in 200ms;
     border-radius: 30px;
 }
@@ -336,7 +394,7 @@ footer {
     left: 64px;
     height: 400px;
     width: 1050px;
-    background: url(../img/store-overview.JPG);
+    background: url(../img/img_roof.jpg);
     background-size: 100% auto;
     background-position: center;
     transition: ease-in 200ms;  
@@ -348,7 +406,13 @@ footer {
     margin-top: 64px;
 }
 
+.article-description a {
+font-size: 1em;
+color:var(--color-dark);
+}
+
 .homepage-list {
+    width: 1400px;
     margin: 0 220px;
     height: fit-content;
 }
@@ -364,6 +428,18 @@ footer {
     border-radius: 30px;
     padding: 35px;
     margin-bottom: 35px;
+}
+
+.thumb-02 {
+    background-color: var(--color-light-02);
+}
+
+.thumb-03 {
+    background-color: var(--color-light-03);
+}
+
+.thumb-04 {
+    background-color: var(--color-light-04);
 }
 
 .thumb-img {
@@ -393,8 +469,8 @@ footer {
 }
 
 .dividing-img-01 {
-    height: 500px;
-    background-image: url(../img/meeting-placeholder.png);
+    height: 800px;
+    background-image: url(../img/img_dividing_01.jpg);
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: 90% auto;
@@ -402,13 +478,22 @@ footer {
 
 .dividing-img-02 {
     height: 500px;
-    background-image: url(../img/wargaming-table.JPG);
+    background-image: url(../img/img_divider_02.jpg);
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: 90% auto;
 }
 
 /* figures*/ 
+
+#logo  {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 30%;
+    width: 500px;
+    height: auto;
+}
 
 .divider-horizontal{
     height: 10px;
@@ -472,7 +557,6 @@ footer {
     background-color: var(--color-light);
     -webkit-mask-image: url(../img/icons/icn_home.svg);
     mask-image: url(../img/icons/icn_home.svg);
-    
 }
 
 .about-icon {
@@ -522,24 +606,3 @@ footer {
 .clickable-img:hover{
     transform: scale(1.01);
 }
-
-
-/* parralaxing */
-
-.forefront-element {
-    -webkit-transform: translateZ(999px) scale(.7);
-    transform: translateZ(999px) scale(.7);
-    z-index: 1;
-  }
-
-  .base-element {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    z-index: 4;
-  }
-
-  .background-element {
-    -webkit-transform: translateZ(-999px) scale(2);
-    transform: translateZ(-999px) scale(2);
-    z-index: 3;
-  }
