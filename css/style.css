@@ -413,7 +413,7 @@ color:var(--color-dark);
 
 .homepage-list {
     width: 1400px;
-    margin: 0 220px;
+    margin: 0 auto;
     height: fit-content;
 }
 
