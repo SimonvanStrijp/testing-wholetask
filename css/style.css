@@ -532,7 +532,7 @@ color:var(--color-dark);
 
 .button:hover .icon{
     height: 60%;
-    width: 60%;
+    width: auto;
 }
 
 
@@ -540,43 +540,14 @@ color:var(--color-dark);
 
 .icon {
     position: absolute;
-    width: 50%;
+    width: auto;
     height: 50%;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
     transition: ease-in 200ms;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    -webkit-mask-position: center;
-    mask-position: center;
-    
+    z-index: 5;
 }
-
-.home {
-    background-color: var(--color-light);
-    -webkit-mask-image: url(../img/icons/icn_home.svg);
-    mask-image: url(../img/icons/icn_home.svg);
-}
-
-.about-icon {
-    background-color: var(--color-light);
-    -webkit-mask-image: url(../img/icons/icn_about.svg);
-    mask-image: url(../img/icons/icn_about.svg);
-}
-
-.articles {
-    background-color: var(--color-light);
-    -webkit-mask-image: url(../img/icons/icn_article.svg);
-    mask-image: url(../img/icons/icn_article.svg);
-}
-
-.top{
-    background-color: var(--color-light);
-    -webkit-mask-image: url(../img/icons/icn_arrow.svg);
-    mask-image: url(../img/icons/icn_arrow.svg);
-}
-
 
 
 /* misc animations */
